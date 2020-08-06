@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.tu_berlin.cit</groupId>
+  <artifactId>rabbitmq_generator</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>rabbitmq_generator</name>
+  <packaging>pom</packaging>
+
+  <modules>
+  	<module>rabbitmq_producer</module>
+  	<module>rabbitmq_consumer</module>
+  </modules>
+
+</project>
